@@ -1,0 +1,9 @@
+@media only screen and (max-width: 600px){
+    .img-carousel{
+        height: 300px;
+    }
+}
+
+body{
+    background: #222;
+}

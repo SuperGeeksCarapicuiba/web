@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>API e AJAX</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+    </head>
+    <body>
+
+        <h2>API - Pokemon</h2>
+
+        <div>
+            <button id="btnBusca">Buscar Pokemon</button> <br>
+
+            Pokémon Escolhido:  <label id="pokeEscolhido"></label> <br>
+            Personagem Escolhido: <label id="person"></label>
+        </div>
+
+        <div>
+            <input id="buscarFilmePorNomePerson">
+            <button id="btnBuscaFilme">
+                Buscar Filme por Nome
+            </button>
+
+            Filme de <label id="lblFilme"></label>
+        </div>
+
+        <div>
+            <table id="tabelaFilmes" border=1>
+                <tr>
+                    <th>Nome</th>
+                    <th>Episódio</th>
+                    <th>Diretor</th>
+                </tr>
+            </table>
+        </div>
+
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>

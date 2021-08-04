@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    sequel (5.45.0)
+    sqlite3 (1.3.13-x64-mingw32)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  sequel
+  sqlite3 (~> 1.3.6)
+
+BUNDLED WITH
+   2.2.19
